@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    text-align: left;
+    overflow: auto;
+}
+
+h1 {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+#fixed-name {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia';
+    width: 25%; height: 40px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#fixed-about {
+    top: 15px;
+    color: #777777;
+    font-size: small;
+    float: right;
+    padding: 10px;
+}
+
+#fixed-portfolio {
+    float: right;
+    top: 15px;
+    font-size: small;
+    padding: 10px;
+}
+
+#fixed-contact {
+    top: 15px;
+    font-size: small;
+    float: right;
+    padding: 10px;
+}
+
+body {
+    height: 960;
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/full-bloom.png");
+}
+
+#aboutme {
+    background-color: #ffffff;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    float: left;
+}
+
+hr {
+    color: #777777;
+    margin-bottom: 15px;
+}
+
+h2 {
+    clear: both;
+    color: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#profpic {
+    height: 200px;
+    float: left;
+}
+
+p {
+    color: #777777;
+    background-color: #ffffff;
+    text-align: justify;
+    border: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: #666666;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    padding-top: #4aaaa5;
+}
+
+#Alex {
+    height: 300px;
+    padding: 30px;
+}
+
+#Alexword {
+    background-color: #4aaaa5;
+    width: 15%;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    top: 200px;
+}
+
+#Duke {
+    height: 300px;
+    padding: 30px;
+
+}
+
+#Dukeword {
+    background-color: #4aaaa5;
+    width: 15%;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin-left: 30px;
+    position: relative;
+    float: left;
+}
+
+#Mac {
+    height: 300px;
+    padding: 30px;
+}
+
+#Macword {
+    background-color: #4aaaa5;
+    width: 15%;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+#Zeus {
+    height: 300px;
+    padding: 30px;
+}
+
+#Zeusword {
+    background-color: #4aaaa5;
+    width: 15%;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+#Paris {
+    height: 300px;
+    padding: 30px;
+}
+
+#Parisword {
+    background-color: #4aaaa5;
+    width: 15%;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+#Kent {
+    height: 300px;
+    padding: 30px;
+}
+
+#Kentword {
+    background-color: #4aaaa5;
+    width: 15%;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+.box {
+    width: 100px;
+    height: 30px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: white;
+    width: 80px;
+}
+
+#contactpage {
+    color: #777777;
+    background-color: #ffffff;
+    text-align: justify;
+    border: 20px;
+    padding: 15px;
+}
+
+#name {
+    margin: 20px;   
+}
+
+#email {
+    margin: 20px;
+}
+
+#message {
+    margin: 20px;
+    height: 300px; width: 600px;
+}
