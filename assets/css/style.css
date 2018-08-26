@@ -68,7 +68,6 @@ h2 {
     clear: both;
     color: #4aaaa5;
     font-family: 'Times New Roman', Times, serif;
-
 }
 
 #profpic {
@@ -92,6 +91,15 @@ footer {
     padding-top: #4aaaa5;
 }
 
+#portfoliopara {
+    background-color: #ffffff;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    float: left;
+}
+
 #Alex {
     height: 300px;
     padding: 30px;
@@ -99,28 +107,40 @@ footer {
 
 #Alexword {
     background-color: #4aaaa5;
-    width: 15%;
     font-size: medium;
     text-align: center;
     color: white;
     padding: 5px;
-    top: 200px;
+    position: absolute;
+    top: 160px;
+    left: 85px;
+}
+
+#Alexbox {
+    clear: both;
+    position: relative;
+    float: left;
 }
 
 #Duke {
     height: 300px;
     padding: 30px;
-
 }
 
 #Dukeword {
     background-color: #4aaaa5;
-    width: 15%;
+    width: 55px;
     font-size: medium;
     text-align: center;
     color: white;
     padding: 5px;
     margin-left: 30px;
+    position: absolute;
+    top: 160px;
+    left: 55px;
+    }
+
+#Dukebox {
     position: relative;
     float: left;
 }
@@ -137,6 +157,13 @@ footer {
     text-align: center;
     color: white;
     padding: 5px;
+    position: absolute;
+    top: 160px;
+    left: 130px;
+}
+
+#Macbox {
+    position: relative;
 }
 
 #Zeus {
@@ -146,11 +173,19 @@ footer {
 
 #Zeusword {
     background-color: #4aaaa5;
-    width: 15%;
+    width: 55px;
     font-size: medium;
     text-align: center;
     color: white;
     padding: 5px;
+    position: absolute;
+    top: 180px;
+    left: 90px;
+}
+
+#Zeusbox {
+    position: relative;
+    float: left;
 }
 
 #Paris {
@@ -160,11 +195,19 @@ footer {
 
 #Parisword {
     background-color: #4aaaa5;
-    width: 15%;
+    width: 55px;
     font-size: medium;
     text-align: center;
     color: white;
     padding: 5px;
+    position: absolute;
+    left: 85px;
+    top: 180px;
+}
+
+#Parisbox {
+    position: relative;
+    float: left;
 }
 
 #Kent {
@@ -174,11 +217,18 @@ footer {
 
 #Kentword {
     background-color: #4aaaa5;
-    width: 15%;
+    width: 55px;
     font-size: medium;
     text-align: center;
     color: white;
     padding: 5px;
+    position: absolute;
+    top: 180px;
+    left: 180px;
+}
+
+#Kentbox {
+    position: relative;
 }
 
 .box {
@@ -211,13 +261,4 @@ footer {
 #message {
     margin: 20px;
     height: 300px; width: 600px;
-}
-
-#portfoliopara {
-    background-color: #ffffff;
-    margin-top: 130px;
-    margin-bottom: 30px;
-    margin-left: 20%;
-    margin-right: 20%;
-    float: left;
 }
