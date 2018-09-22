@@ -89,24 +89,24 @@ footer {
     text-align: center;
     padding: 20px;
     bottom: 0;
-    padding-top: #4aaaa5;
+    border-top:7px solid #4aaaa5;
 }
 
 #portfoliopara {
     background-color: #ffffff;
     margin-top: 130px;
     margin-bottom: 30px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 18%;
+    margin-right: 18%;
     float: left;
 }
 
 #Alex {
-    height: 300px;
+    height: 250px;
     padding: 30px;
 }
 
-#Alexword {
+#Hangmanword {
     background-color: #4aaaa5;
     font-size: medium;
     text-align: center;
@@ -117,58 +117,58 @@ footer {
     left: 85px;
 }
 
-#Alexbox {
+#Hangmanbox {
     clear: both;
     position: relative;
     float: left;
 }
 
-#Duke {
-    height: 300px;
+#Crystal {
+    height: 250px;
     padding: 30px;
 }
 
-#Dukeword {
+#Crystalword {
     background-color: #4aaaa5;
-    width: 55px;
+    width: 100px;
     font-size: medium;
     text-align: center;
     color: white;
     padding: 5px;
-    margin-left: 30px;
+    margin-left: 150px;
     position: absolute;
-    top: 160px;
+    top: 120px;
     left: 55px;
     }
 
-#Dukebox {
+#Crystalbox {
     position: relative;
     float: left;
 }
 
-#Mac {
-    height: 300px;
+#Trivia {
+    height: 250px;
     padding: 30px;
 }
 
-#Macword {
+#Triviaword {
     background-color: #4aaaa5;
-    width: 15%;
+    width: 35%;
     font-size: medium;
     text-align: center;
     color: white;
     padding: 5px;
     position: absolute;
-    top: 160px;
+    top: 130px;
     left: 130px;
 }
 
-#Macbox {
+#Triviabox {
     position: relative;
 }
 
 #Zeus {
-    height: 300px;
+    height: 250px;
     padding: 30px;
 }
 
@@ -190,7 +190,7 @@ footer {
 }
 
 #Paris {
-    height: 300px;
+    height: 250px;
     padding: 30px;
 }
 
@@ -212,7 +212,7 @@ footer {
 }
 
 #Kent {
-    height: 300px;
+    height: 250px;
     padding: 30px;
 }
 
