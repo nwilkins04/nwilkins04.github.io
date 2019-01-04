@@ -90,6 +90,8 @@ footer {
     padding: 20px;
     bottom: 0;
     border-top:7px solid #4aaaa5;
+    position: fixed;
+    width: 100%;
 }
 
 #portfoliopara {
@@ -313,20 +315,9 @@ footer {
 #contactpage {
     color: darkblue;
     background-color: #ffffff;
-    text-align: justify;
+    text-align: center;
     border: 20px;
     padding: 15px;
-}
-
-#name {
-    margin: 20px;   
-}
-
-#email {
-    margin: 20px;
-}
-
-#message {
-    margin: 20px;
-    height: 300px; width: 600px;
+    width: 75%;
+    left: 800px;
 }
