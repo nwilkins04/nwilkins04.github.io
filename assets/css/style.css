@@ -180,8 +180,8 @@ footer {
     color: white;
     padding: 5px;
     position: absolute;
-    top: 180px;
-    left: 90px;
+    top: 150px;
+    left: 110px;
 }
 
 #GIFbox {
@@ -202,8 +202,8 @@ footer {
     color: white;
     padding: 5px;
     position: absolute;
-    left: 85px;
-    top: 180px;
+    left: 140px;
+    top: 150px;
 }
 
 #Trainbox {
@@ -224,11 +224,77 @@ footer {
     color: white;
     padding: 5px;
     position: absolute;
-    top: 180px;
+    top: 160px;
     left: 180px;
 }
 
 #Groupbox {
+    position: relative;
+    float: left;
+}
+
+#MYSQL {
+    height: 275px;
+    padding: 30px;
+}
+
+#MYSQLword {
+    background-color: darkblue;
+    width: 115px;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 185px;
+    left: 180px;
+}
+
+#MYSQLbox {
+    position: relative;
+    float: left;
+}
+
+#DogFinder {
+    height: 250px;
+    padding: 30px;
+}
+
+#DogFinderword {
+    background-color: darkblue;
+    width: 75px;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 160px;
+    left: 180px;
+}
+
+#DogFinderbox {
+    position: relative;
+    float: left;
+}
+
+#GroupTwo {
+    height: 275px;
+    padding: 30px;
+}
+
+#GroupTwoword {
+    background-color: darkblue;
+    width: 95px;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 180px;
+    left: 210px;
+}
+
+#GroupTwobox {
     position: relative;
     float: left;
 }
