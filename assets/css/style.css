@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     text-align: left;
-    overflow: auto;
+    overflow: visible;
 }
 
 h1 {
@@ -280,25 +280,47 @@ footer {
 }
 
 #GroupTwo {
-    height: 275px;
+    height: 250px;
     padding: 30px;
 }
 
 #GroupTwoword {
     background-color: darkblue;
-    width: 95px;
+    width: 100px;
     color: white;
     font-size: medium;
     text-align: center;
     padding: 5px;
     position: absolute;
-    top: 180px;
+    top: 150px;
     left: 210px;
 }
 
 #GroupTwobox {
     position: relative;
     float: left;
+}
+
+#ClickGame {
+    height: 300px;
+    padding: 30px;
+}
+
+#ClickGameword {
+    background-color: darkblue;
+    width: 115px;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 1685px;
+    left: 600px;
+}
+
+#ClickGamebox {
+    height: 200px;
+    padding: 50px;
 }
 
 .box {
