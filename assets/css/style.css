@@ -314,11 +314,32 @@ footer {
     text-align: center;
     padding: 5px;
     position: absolute;
-    top: 1685px;
-    left: 600px;
+    top: 2455px;
+    left: 550px;
 }
 
 #ClickGamebox {
+    height: 200px;
+    padding: 50px;
+}
+
+#DesignQuilt {
+    height: 300px;
+    padding: 30px;
+}
+
+#DesignQuiltword {
+    background-color: darkblue;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 2700;
+    left: 600px;
+}
+
+#DesignQuiltbox {
     height: 200px;
     padding: 50px;
 }
