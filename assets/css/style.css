@@ -15,8 +15,7 @@ h1 {
 }
 
 #fixed-name {
-    background-color: #4aaaa5;
-    color: white;
+    color: #4aaaa5;
     font-family: 'Georgia';
     width: 25%; height: 40px;
     margin-bottom: 20px;
@@ -76,20 +75,12 @@ h2 {
     float: left;
 }
 
-p {
-    color: black;
-    background-color: #ffffff;
-    text-align: justify;
-    border: 20px;
-}
-
 footer {
     clear: both;
     background-color: darkblue;
     text-align: center;
     padding: 20px;
     bottom: 0;
-    border-top:7px solid #4aaaa5;
     position: fixed;
     width: 100%;
 }
@@ -103,144 +94,34 @@ footer {
     float: left;
 }
 
-#Hangman {
-    height: 250px;
+/* projects here */
+#DesignQuilt {
+    height: 300px;
     padding: 30px;
 }
 
-#Hangmanword {
+#DesignQuiltword {
     background-color: darkblue;
+    color: white;
     font-size: medium;
     text-align: center;
-    color: white;
     padding: 5px;
     position: absolute;
-    top: 160px;
-    left: 85px;
+    top: 400;
+    left: 600px;
 }
 
-#Hangmanbox {
-    clear: both;
-    position: relative;
-    float: left;
+#DesignQuiltbox {
+    height: 200px;
+    padding: 50px;
 }
 
-#Crystal {
-    height: 250px;
+#ClickGame {
+    height: 300px;
     padding: 30px;
 }
 
-#Crystalword {
-    background-color: darkblue;
-    width: 100px;
-    font-size: medium;
-    text-align: center;
-    color: white;
-    padding: 5px;
-    margin-left: 150px;
-    position: absolute;
-    top: 120px;
-    left: 55px;
-    }
-
-#Crystalbox {
-    position: relative;
-    float: left;
-}
-
-#Trivia {
-    height: 250px;
-    padding: 30px;
-}
-
-#Triviaword {
-    background-color: darkblue;
-    width: 35%;
-    font-size: medium;
-    text-align: center;
-    color: white;
-    padding: 5px;
-    position: absolute;
-    top: -100px;
-    left: 130px;
-}
-
-#Triviabox {
-    position: relative;
-}
-
-#GIF {
-    height: 250px;
-    padding: 30px;
-}
-
-#GIFword {
-    background-color: darkblue;
-    width: 55px;
-    font-size: medium;
-    text-align: center;
-    color: white;
-    padding: 5px;
-    position: absolute;
-    top: 150px;
-    left: 110px;
-}
-
-#GIFbox {
-    position: relative;
-    float: left;
-}
-
-#Train {
-    height: 250px;
-    padding: 30px;
-}
-
-#Trainword {
-    background-color: darkblue;
-    width: 75px;
-    font-size: medium;
-    text-align: center;
-    color: white;
-    padding: 5px;
-    position: absolute;
-    left: 140px;
-    top: 150px;
-}
-
-#Trainbox {
-    position: relative;
-    float: left;
-}
-
-#Group {
-    height: 250px;
-    padding: 30px;
-}
-
-#Groupword {
-    background-color: darkblue;
-    width: 75px;
-    font-size: medium;
-    text-align: center;
-    color: white;
-    padding: 5px;
-    position: absolute;
-    top: 160px;
-    left: 180px;
-}
-
-#Groupbox {
-    position: relative;
-    float: left;
-}
-
-#MYSQL {
-    height: 275px;
-    padding: 30px;
-}
-
-#MYSQLword {
+#ClickGameword {
     background-color: darkblue;
     width: 115px;
     color: white;
@@ -248,11 +129,33 @@ footer {
     text-align: center;
     padding: 5px;
     position: absolute;
-    top: 185px;
-    left: 180px;
+    top: 750px;
+    left: 550px;
 }
 
-#MYSQLbox {
+#ClickGamebox {
+    height: 200px;
+    padding: 50px;
+}
+
+#GroupTwo {
+    height: 250px;
+    padding: 30px;
+}
+
+#GroupTwoword {
+    background-color: darkblue;
+    width: 100px;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 150px;
+    left: 210px;
+}
+
+#GroupTwobox {
     position: relative;
     float: left;
 }
@@ -279,34 +182,12 @@ footer {
     float: left;
 }
 
-#GroupTwo {
-    height: 250px;
+#MYSQL {
+    height: 275px;
     padding: 30px;
 }
 
-#GroupTwoword {
-    background-color: darkblue;
-    width: 100px;
-    color: white;
-    font-size: medium;
-    text-align: center;
-    padding: 5px;
-    position: absolute;
-    top: 150px;
-    left: 210px;
-}
-
-#GroupTwobox {
-    position: relative;
-    float: left;
-}
-
-#ClickGame {
-    height: 300px;
-    padding: 30px;
-}
-
-#ClickGameword {
+#MYSQLword {
     background-color: darkblue;
     width: 115px;
     color: white;
@@ -314,34 +195,145 @@ footer {
     text-align: center;
     padding: 5px;
     position: absolute;
-    top: 2455px;
-    left: 550px;
+    top: 185px;
+    left: 180px;
 }
 
-#ClickGamebox {
-    height: 200px;
-    padding: 50px;
+#MYSQLbox {
+    position: relative;
+    float: left;
 }
 
-#DesignQuilt {
-    height: 300px;
+#Group {
+    height: 250px;
     padding: 30px;
 }
 
-#DesignQuiltword {
+#Groupword {
     background-color: darkblue;
-    color: white;
+    width: 75px;
     font-size: medium;
     text-align: center;
+    color: white;
     padding: 5px;
     position: absolute;
-    top: 2700;
-    left: 600px;
+    top: 160px;
+    left: 180px;
 }
 
-#DesignQuiltbox {
-    height: 200px;
-    padding: 50px;
+#Groupbox {
+    position: relative;
+    float: left;
+}
+
+#Train {
+    height: 250px;
+    padding: 30px;
+}
+
+#Trainword {
+    background-color: darkblue;
+    width: 75px;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    left: 140px;
+    top: 150px;
+}
+
+#Trainbox {
+    position: relative;
+    float: left;
+}
+
+#GIF {
+    height: 250px;
+    padding: 30px;
+}
+
+#GIFword {
+    background-color: darkblue;
+    width: 55px;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 150px;
+    left: 110px;
+}
+
+#GIFbox {
+    position: relative;
+    float: left;
+}
+
+#Trivia {
+    height: 250px;
+    padding: 30px;
+}
+
+#Triviaword {
+    background-color: darkblue;
+    width: 35%;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: -100px;
+    left: 130px;
+}
+
+#Triviabox {
+    position: relative;
+}
+
+#Crystal {
+    height: 250px;
+    padding: 30px;
+}
+
+#Crystalword {
+    background-color: darkblue;
+    width: 100px;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin-left: 150px;
+    position: absolute;
+    top: 120px;
+    left: 55px;
+    }
+
+#Crystalbox {
+    position: relative;
+    float: left;
+}
+
+#Hangman {
+    height: 250px;
+    padding: 30px;
+}
+
+#Hangmanword {
+    background-color: darkblue;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 160px;
+    left: 85px;
+}
+
+#Hangmanbox {
+    clear: both;
+    position: relative;
+    float: left;
 }
 
 .box {
@@ -356,11 +348,12 @@ footer {
 }
 
 #contactpage {
-    color: darkblue;
     background-color: #ffffff;
     text-align: center;
     border: 20px;
     padding: 15px;
-    width: 75%;
-    left: 800px;
+    float: left;
+    margin-left: 40%;
+    margin-top: 10%;
+    margin-right: 20%;
 }
