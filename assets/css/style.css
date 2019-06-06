@@ -108,11 +108,12 @@ footer {
     padding: 5px;
     position: absolute;
     top: 400;
-    left: 600px;
+    left: 800px;
 }
 
 #DesignQuiltbox {
-    height: 200px;
+    height: 500px;
+    width: 500px;
     padding: 50px;
 }
 
