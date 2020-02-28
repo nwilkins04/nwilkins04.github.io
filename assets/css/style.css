@@ -96,6 +96,22 @@ footer {
 
 /* projects here */
 
+#beforeCaseyGroup {
+    height: 300px;
+    padding: 25px;
+}
+
+#beforeCaseyGroupword {
+    color: white;
+    background-color: darkblue;
+    padding: 5px;
+    text-align: center;
+    font-size: medium;
+    position: absolute;
+    top: 450px;
+    left: 400px;
+}
+
 #HolidayWilderness {
     height: 300px;
     padding: 30px;
@@ -109,7 +125,7 @@ footer {
     padding: 5px;
     position: absolute;
     top: 425px;
-    left: 450px;
+    left: 850px;
 }
 
 #HolidayWildernessbox {
